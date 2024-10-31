@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, skyblue, pink);
+}
+
+.container {
+  background: url("https://images.unsplash.com/photo-1727946265721-c224a52ec71c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center/cover;
+  padding: 50px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  width: 300px;
+  background: transparent;
+  margin-right: 10px;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #454545;
+  color: white;
+}
+
+.todo-list {
+  margin-top: 3rem;
+}
+
+.todo {
+  width: 250px;
+  background: #f5f9eb;
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 7px 10px;
+  font-family: sans-serif;
+}
+
+.close {
+  padding: 0px 10px;
+  border-radius: 100%;
+}

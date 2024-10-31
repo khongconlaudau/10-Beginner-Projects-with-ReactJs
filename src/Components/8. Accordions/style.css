@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 40rem;
+    padding: 30px;
+    background: grey;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.title{
+    line-height: 30px;
+}

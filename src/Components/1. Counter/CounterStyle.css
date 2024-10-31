@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.increment, .decrement{
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 100%;
+    background: #1b1b1b;
+    color: white;
+    cursor: pointer;
+}

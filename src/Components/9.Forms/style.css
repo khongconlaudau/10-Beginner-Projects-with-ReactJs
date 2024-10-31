@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  height: 30rem;
+  width: 50rem;
+  margin: 10rem 3rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  box-shadow: 0 0 10px;
+  position: relative;
+  transition: all 0.8s;
+}
+
+img {
+  /* background: url("../public/rohit-tandon-9wg5jCEPBsw-unsplash.jpg"); */
+  width: 50%;
+  height: 100%;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  padding: 6px;
+  outline: none;
+  width: 20rem;
+}
+
+input[type="submit"] {
+  width: 20rem;
+  padding: 6px;
+  margin-top: 10px;
+  background: #fa709a;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font: bold;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+.errorMsg {
+  font-size: 3rem sans-serif;
+  color: red;
+  text-align: center;
+  width: 20rem;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+
+.container::after, .container::before {
+  content: "";
+  background: white;
+  height: 30rem;
+  width: 50rem;
+  position:absolute;
+  z-index: -1;
+  box-shadow: 0 0 10px;
+  transition: all 1s;
+}
+
+.container:hover::after{
+    transform: rotate(20deg);
+}
+
+.container:hover::before{
+    transform: rotate(-30deg);
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
